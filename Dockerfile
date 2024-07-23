@@ -7,7 +7,8 @@ RUN tlmgr update --self && \
     enumitem \
     titlesec \
     ragged2e \
-    tcolorbox
+    tcolorbox \
+    fontawesome5
 
     RUN apk add --update font-carlito \
         && rm -rf /var/cache/apk/*
