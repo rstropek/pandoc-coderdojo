@@ -10,5 +10,5 @@ RUN tlmgr update --self && \
     tcolorbox \
     fontawesome5
 
-    RUN apk add --update font-carlito \
+    RUN apk add --update font-carlito exiftool \
         && rm -rf /var/cache/apk/*
