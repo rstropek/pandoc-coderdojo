@@ -8,7 +8,8 @@ RUN tlmgr update --self && \
     titlesec \
     ragged2e \
     tcolorbox \
-    fontawesome5
+    fontawesome5 \
+    changepage
 
     RUN apk add --update font-carlito exiftool \
         && rm -rf /var/cache/apk/*
